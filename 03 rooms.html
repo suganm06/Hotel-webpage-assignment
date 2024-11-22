@@ -1,0 +1,257 @@
+<html>
+
+<head>
+    <title>Grand Hotel rooms</title>
+    <link rel="icon" href="g.ico">
+</head>
+
+<body>
+    <img src="hotel logo.png" alt="image loading" class="logo">
+
+    <div class="nav">
+        <a href="index.html">HOME</a>
+        <a href="02 about us.html">ABOUT US</a>
+        <a class="room" href="03 rooms.html">ROOMS</a>
+        <a href="04 services.html">SERVICES</a>
+        <a href="05 contact.html">CONTACT</a>
+        <a href="06 signup.html">SIGNUP</a>
+    </div>
+
+    <div class="sm">
+        <h2 class="t8">We are located @ 1/11, street, area, city, state - 000000 <br>Follow us for more updates, offers
+            & announcements...</h2>
+        <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" alt="image loading"
+                class="insta"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="image loading" class="fb"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="youtube.png" alt="image loading" class="yt"></a>
+        <a href="https://x.com/i/flow/login" target="_blank"><img src="x.png" alt="image loading" class="x"></a>
+    </div>
+
+    <div class="rooms">
+        <h2 class="t1">ROOMS WE OFFER</h2>
+        <div class="sr">
+            <img src="7.jpg" alt="image loading" class="im1">
+            <a href="06 signup.html">
+                <h2 class="t2">STANDARD ROOM<br>From ₹900/- per night<br>
+                    <marquee behavior="" direction=""><i>CLICK HERE TO BOOK NOW</i></marquee>
+                </h2>
+            </a>
+        </div>
+        <div class="dr">
+            <img src="8.jpg" alt="image loading" class="im2">
+            <a href="06 signup.html">
+                <h2 class="t3">DELUXE ROOM<br>From ₹1300/- per night<br>
+                    <marquee behavior="" direction=""><i>CLICK HERE TO BOOK NOW</i></marquee>
+                </h2>
+            </a>
+        </div>
+        <div class="lr">
+            <img src="9.jpg" alt="image loading" class="im3">
+            <a href="06 signup.html">
+                <h2 class="t4">LUXURY ROOM<br>From ₹2000/- per night<br>
+                    <marquee behavior="" direction=""><i>CLICK HERE TO BOOK NOW</i></marquee>
+                </h2>
+            </a>
+        </div>
+    </div>
+
+    <style>
+        body {
+            background-color: rgb(26, 26, 26, 255);
+            height: 170%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 17%;
+        }
+
+        .nav {
+            position: sticky;
+            top: 0%;
+            padding: 1%;
+            width: 100%;
+            z-index: 1000;
+            background-color: rgb(26, 26, 26, 255);
+            text-align: center;
+            font-size: 170%;
+        }
+
+        .nav a {
+            padding: 1% 2%;
+            border: solid rgb(246, 210, 103);
+            border-width: 0px 0px 3px 0px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            background-color: #cb8a56;
+        }
+
+        .room {
+            background-color: rgb(246, 210, 103);
+        }
+
+        .rooms {
+            position: absolute;
+            top: 25%;
+        }
+
+        .t1 {
+            background-image: url("6.jpg");
+            background-size: cover;
+            text-align: center;
+            color: gainsboro;
+            font-size: 100px;
+            padding: 100px;
+            height: 100%;
+            width: 115%;
+        }
+
+        .im1,
+        .im2,
+        .im3 {
+            position: absolute;
+            top: 100%;
+            border-radius: 10px 10px 0px 0px;
+            height: 314px;
+            width: 371px;
+        }
+
+        .im1 {
+            left: 10%;
+        }
+
+        .im2 {
+            left: 51%;
+        }
+
+        .im3 {
+            left: 92%;
+        }
+
+        .t2,
+        .t3,
+        .t4 {
+            position: absolute;
+            top: 162%;
+            background-color: rgb(246, 210, 103);
+            height: 80px;
+            width: 371px;
+            padding-top: 8px;
+            border-radius: 0px 0px 10px 10px;
+            text-align: center;
+            font-family: monospace;
+            text-decoration: none;
+        }
+
+        .t2 {
+            left: 10%;
+            color: cadetblue;
+        }
+
+        .t3 {
+            left: 51%;
+            color: crimson;
+        }
+
+        .t4 {
+            left: 92%;
+            color: darkslateblue;
+        }
+
+        .sr:hover .im1 {
+            transform: translateY(-8px);
+        }
+
+        .sr:hover .t2 {
+            transform: translateY(-8px);
+        }
+
+        .dr:hover .im2 {
+            transform: translateY(-8px);
+        }
+
+        .dr:hover .t3 {
+            transform: translateY(-8px);
+        }
+
+        .lr:hover .im3 {
+            transform: translateY(-8px);
+        }
+
+        .lr:hover .t4 {
+            transform: translateY(-8px);
+        }
+
+        .sm {
+            position: absolute;
+            background-color: rgb(246, 210, 103);
+            top: 150%;
+            height: 29%;
+            width: 100%;
+        }
+
+        .t8 {
+            position: absolute;
+            top: 1%;
+            left: 28%;
+            font-size: xx-large;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .insta,
+        .fb,
+        .yt,
+        .x {
+            height: 4.5vh;
+            width: 4.5vw;
+            top: 55%;
+        }
+
+        .insta {
+            position: absolute;
+            left: 41%;
+        }
+
+        .insta:hover {
+            transform: scale(1.2);
+        }
+
+        .fb {
+            position: absolute;
+            left: 46%;
+        }
+
+        .fb:hover {
+            transform: scale(1.2);
+        }
+
+        .yt {
+            position: absolute;
+            left: 51%;
+        }
+
+        .yt:hover {
+            transform: scale(1.2);
+        }
+
+        .x {
+            position: absolute;
+            left: 56%;
+        }
+
+        .x:hover {
+            transform: scale(1.2);
+        }
+    </style>
+
+</body>
+
+</html>
